@@ -43,7 +43,7 @@ class TelemetryService(Service):
         self.worker_task: asyncio.Task | None = None
         # Check for do-not-track settings
         self.do_not_track = (
-            os.getenv("DO_NOT_TRACK", "False").lower() == "true" or settings_service.settings.do_not_track
+            os.getenv("DO_NOT_TRACK", "True").lower() == "true" or settings_service.settings.do_not_track
         )
         self.log_package_version_task: asyncio.Task | None = None
 

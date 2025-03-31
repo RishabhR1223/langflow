@@ -395,8 +395,7 @@ def print_banner(host: str, port: int) -> None:
         "[bold][link=https://github.com/langflow-ai/langflow]GitHub Repo[/link][/bold] :star2:"
     )
     telemetry_text = (
-        "We collect anonymous usage data to improve Langflow.\n"
-        "You can opt-out by setting [bold]DO_NOT_TRACK=true[/bold] in your environment."
+        ""
     )
     access_link = f"Access [link=http://{host}:{port}]http://{host}:{port}[/link]"
 
