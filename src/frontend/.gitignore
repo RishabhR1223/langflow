@@ -33,3 +33,5 @@ yarn-error.log*
 /blob-report/
 /playwright/.cache/
 .qodo
+package-lock.json
+uv.lock

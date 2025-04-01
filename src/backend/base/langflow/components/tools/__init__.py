@@ -31,6 +31,8 @@ from .wikipedia_api import WikipediaAPIComponent
 from .wolfram_alpha_api import WolframAlphaAPIComponent
 from .yahoo import YfinanceComponent
 from .yahoo_finance import YfinanceToolComponent
+from .file_downloader import FileDownloader
+from .file_upload import FileUploadComponent
 
 with warnings.catch_warnings():
     warnings.simplefilter("ignore", LangChainDeprecationWarning)
@@ -46,6 +48,8 @@ __all__ = [
     "CalculatorToolComponent",
     "DuckDuckGoSearchComponent",
     "ExaSearchToolkit",
+    "FileDownloader",
+    "FileUploadComponent",
     "GleanSearchAPIComponent",
     "GoogleSearchAPIComponent",
     "GoogleSearchAPICore",
