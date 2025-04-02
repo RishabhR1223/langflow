@@ -33,6 +33,7 @@ from .yahoo import YfinanceComponent
 from .yahoo_finance import YfinanceToolComponent
 from .file_downloader import FileDownloader
 from .file_upload import FileUploadComponent
+from .diagram_generator import DiagramGenerator
 
 with warnings.catch_warnings():
     warnings.simplefilter("ignore", LangChainDeprecationWarning)
@@ -56,6 +57,7 @@ __all__ = [
     "GoogleSerperAPIComponent",
     "GoogleSerperAPICore",
     "MCPToolsComponent",
+    "DiagramGenerator",
     "PythonCodeStructuredTool",
     "PythonREPLComponent",
     "PythonREPLToolComponent",

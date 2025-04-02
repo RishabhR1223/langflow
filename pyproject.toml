@@ -124,6 +124,8 @@ dependencies = [
     "opik>=1.6.3",
     "openai>=1.68.2",
     "psycopg",
+    "plantuml",
+    "python-docx",
     
 ]
 
